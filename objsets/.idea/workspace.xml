@@ -32,8 +32,8 @@
       <file leaf-file-name="TweetSet.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/objsets/TweetSet.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="154" column="3" lean-forward="false" selection-start-line="154" selection-start-column="3" selection-end-line="154" selection-end-column="3" />
+            <state relative-caret-position="466">
+              <caret line="233" column="25" lean-forward="true" selection-start-line="233" selection-start-column="25" selection-end-line="233" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -347,23 +347,11 @@
       <option name="presentableId" value="Default" />
       <updated>1512567193468</updated>
       <workItem from="1512567195215" duration="17038000" />
-      <workItem from="1512600055155" duration="169000" />
+      <workItem from="1512600055155" duration="3738000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TweetSetSuite - 2017.12.06 at 14h 59m 42s.xml">
-      <configuration name="TweetSetSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TweetSetSuite - 2017.12.06 at 15h 06m 25s.xml">
-      <configuration name="TweetSetSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TweetSetSuite - 2017.12.06 at 15h 07m 15s.xml">
-      <configuration name="TweetSetSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TweetSetSuite - 2017.12.06 at 15h 59m 16s.xml">
-      <configuration name="TweetSetSuite" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TweetSetSuite - 2017.12.06 at 16h 02m 12s.xml">
       <configuration name="TweetSetSuite" configurationId="JUnit" />
     </history-entry>
@@ -382,9 +370,21 @@
     <history-entry file="TweetSetSuite - 2017.12.06 at 16h 09m 54s.xml">
       <configuration name="TweetSetSuite" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TweetSetSuite - 2017.12.06 at 20h 07m 44s.xml">
+      <configuration name="TweetSetSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TweetSetSuite - 2017.12.06 at 20h 08m 14s.xml">
+      <configuration name="TweetSetSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TweetSetSuite - 2017.12.06 at 20h 27m 52s.xml">
+      <configuration name="TweetSetSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TweetSetSuite - 2017.12.06 at 20h 45m 57s.xml">
+      <configuration name="TweetSetSuite" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17207000" />
+    <option name="totallyTimeSpent" value="20776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="182" y="132" width="1857" height="1092" extended-state="6" />
@@ -392,6 +392,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -399,7 +400,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.50193477" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.49806523" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291536" sideWeight="0.49806523" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -416,7 +417,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -513,8 +513,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/objsets/TweetSet.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="154" column="3" lean-forward="false" selection-start-line="154" selection-start-column="3" selection-end-line="154" selection-end-column="3" />
+        <state relative-caret-position="466">
+          <caret line="233" column="25" lean-forward="true" selection-start-line="233" selection-start-column="25" selection-end-line="233" selection-end-column="25" />
           <folding />
         </state>
       </provider>
