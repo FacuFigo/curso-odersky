@@ -141,7 +141,7 @@ class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
   override def union(that: TweetSet): TweetSet = {
     that match {
       case _: Empty => this
-      case that =>
+      case _ =>
         val result = that.incl(elem)
         right.union(left.union(result))
     }
@@ -150,8 +150,9 @@ class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
   override def mostRetweeted: Tweet = {
 
     (elem, left, right) match {
-      case (elem, _: Empty, right:NonEmpty) => if(elem.retweets > right.mostRetweeted.retweets) elem else right.mostRetweeted
-      case (elem, left:NonEmpty, _:Empty) => if(elem.retweets > left.mostRetweeted.retweets) elem else left.mostRetweeted
+      case (tw, _: Empty, right:NonEmpty) => if(tw.retweets > right.mostRetweeted.retweets) tw else right.mostRetweeted
+      case (tw, left:NonEmpty, _:Empty) => if(tw.retweets > left.mostRetweeted.retweets) tw else left.mostRetweeted
+        // ver el caso que los dos sean no vacíos
       case _ => elem
     }
   }
